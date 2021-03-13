@@ -1,0 +1,51 @@
+Gradient - https://uigradients.com/#LightOrange
+Gradient - https://cssgradient.io/
+Fontawesome - https://fontawesome.com/icons?d=gallery&m=free
+Free Photo - https://www.pexels.com/search/paint/,  https://www.freepik.com/?__hstc=57440181.b26e13da80bebdb3da137a484c228740.1601021837272.1601021837272.1601021837272.1&__hssc=57440181.7.1601021837273&__hsfp=343389168
+Bacground Remove - https://www.remove.bg/ru
+Color Hunt - https://colorhunt.co/
+Cool Background - https://coolbackgrounds.io/
+Free Icon - https://www.flaticon.com/search?word=map&license=selection
+Google Fonts - https://fonts.google.com/
+Free PNG - https://www.freepng.ru/png-qlv901/download.html
+
+
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/

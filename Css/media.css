@@ -1,0 +1,560 @@
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+/* Стили для десктопа - начало */
+/* Desktop Styles - Getting Started */
+@media (max-width: 1500px) {
+	/* Cover Adapt Start */
+	.cover_body{
+		background-position: center;
+		background-size: cover;
+	}
+
+	.cover_content{
+		justify-content: center;
+	}
+
+	.cover_main_section{
+		align-items: center;
+		padding: 0 25px 0 25px;
+	}
+
+	.cover_main_section p {
+		text-align: justify;
+	}
+	/* Cover Adapt End */
+}
+
+@media (max-width: 1140px) {
+	.container {
+		max-width: 970px;
+	}
+
+	.third_section_second_line{
+		flex-wrap: wrap;
+	}
+
+	.third_section_item{
+		width: 45%;
+		margin: 15px 0;
+	}
+
+
+
+	/* Cover Adapt Start */
+	.cover_body{
+		background-position: center;
+		background-size: cover;
+	}
+
+	.cover_content{
+		justify-content: center;
+	}
+
+	.cover_main_section{
+		align-items: center;
+		padding: 0 25px 0 25px;
+	}
+
+	.cover_main_section p {
+		text-align: justify;
+	}
+	/* Cover Adapt Start */
+
+
+
+	/* First Section Adapt Start */
+	.first_section_content{
+		flex-direction: column;
+	}
+
+	.first_section_title_block{
+		width: 100%;
+		padding: 0 0 0 50px;
+	}
+
+	.first_section_text_block{
+		width: 100%;
+		margin: 50px 0 0 0;
+		padding: 0 50px 0 50px;
+	}
+
+	.first_section{
+		margin: 100px 0 0 0;
+	}
+	/* First Section Adapt End */
+}
+
+/* iPad Pro */
+@media (max-width: 1024px) {
+	.container {
+		max-width: none;
+	}
+
+	.third_section_item{
+		width: 42%;
+		margin: 15px 0;
+	}
+
+	.third_section_second_line{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	/* Site Second Section Adapt Start */
+	.second_section_content{
+		flex-direction: column;
+	}
+
+	.second_section_first_col{
+		width: 100%;
+		padding: 0 50px;
+	}
+
+	.second_section_second_col{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	/* Site Second Section Adapt End */
+
+	.third_section_first_line{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.third_section_title{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.third_section_title h2{
+		text-align: center;
+	}
+
+	.slick-dots{
+		right: 48.5%;
+		bottom: -32px;
+	}
+}
+/* iPad Pro */
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+		padding: 0 0px;
+	}
+
+	.first_section_text_block{
+		flex-direction: column;
+	}
+
+	.first_section_text{
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.second_section{
+		margin-top: 130px;
+		padding: 0 50px;
+	}
+
+	form{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+}
+
+
+
+/* Samsung Galaxy Tab 10 */
+@media (max-width: 800px) {
+	.container {
+		max-width: none;
+	}
+
+	.third_section_title{
+		width: 100%;
+	}
+
+
+	.third_section_title h2{
+		text-align: center;
+	}
+
+	.second_section_first_col{
+		padding: 0 0;
+	}
+
+	.second_section_content{
+		width: 100%;
+	}
+
+	.second_section{
+		width: 100%;
+	}
+
+	form{
+		padding: 0 25px;
+	}
+
+	.footer_first_line{
+		padding: 0 25px;
+	}
+
+	.footer_second_line{
+		padding: 0 50px;
+	}
+
+	header{
+		padding: 0 25px;
+	}
+}
+/* Samsung Galaxy Tab 10 */
+
+
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+
+
+
+	/* Haeader Adapt Start */
+	.header_menu{
+		display: none;
+	}
+	/* Haeader Adapt End */
+
+
+
+	/* Adapt Menu Adapt Start */
+	.adapt_menu{
+		display: flex;
+	}
+	/* Adapt Menu Adapt End */
+
+
+
+	/* Burger Menu Adapt Start */
+	#burger_menu{
+		display: flex;
+	}
+	/* Burger Menu Adapt End */
+
+
+
+	/* First Section Adapt Start */
+	.first_section_text{
+		width: 45%;
+	}
+
+	.first_section_text_block{
+		flex-direction: unset;
+	}
+	/* First Section Adapt End */
+
+	.slick-arrow{
+
+	}
+
+	.footer_title{
+		width: 100%;
+	}
+
+	.footer_title h2{
+		text-align: center;
+	}
+
+	.footer_form{
+		width: 100%;
+	}
+
+	.footer_form form{
+		width: 100%;
+	}
+
+	.inp_block{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.inp_block input{
+		margin: unset;
+	}
+
+	.inp_block input:nth-child(1){
+		margin: unset;
+	}
+
+	.inp_block input:nth-child(2){
+		margin: unset;
+	}
+
+	.second_section_second_col{
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+/* Nexus 7 (2013) */
+@media (max-width: 600px) {
+	.container {
+		max-width: none;
+	}
+
+	/* First Section Adapt Start */
+	.first_section_text_block{
+		flex-direction: column;
+		padding: 0 50px 0 50px;
+	}
+
+	.first_section_title_block{
+		padding: 0 0 0 50px;
+	}
+
+	.first_section_text{
+		width: 100%;
+	}
+
+	.first_section_text_block p {
+		margin: 15px 0;
+	}
+	/* First Section Adapt End */
+
+	.slick-slider{
+		
+	}
+
+	.footer_form form{
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.inp_block{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: unset;
+	}
+
+	.inp_block input{
+		margin: unset;
+	}
+}
+/* Nexus 7 (2013) */
+
+@media (max-width: 580px) {
+	.inp_block{
+		flex-direction: column;
+	}
+
+	.slick-dots{
+		right: 48%;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.slick-slider{
+	}
+
+	.second_section{
+		padding: 0 10px;
+	}
+
+	.first_section_content{
+		padding: 0 10px;
+	}
+
+
+}
+
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+@media (max-width: 480px) {
+	.container {
+		max-width: none;
+	}
+
+	.third_section_item{
+		width: 98%;
+	}
+
+	/* First Section Adapt Start */
+	.first_section_text_block{
+		flex-direction: column;
+		padding: 0 0 0 0;
+	}
+
+	.first_section_title_block{
+		padding: 0 0 0 0;
+	}
+
+	.first_section_text{
+		width: 100%;
+	}
+
+	.first_section_text_block p {
+		margin: 15px 0;
+	}
+	/* First Section Adapt End */
+}
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+
+/* iPhone XR, iPhone XS Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6 Plus/6S Plus */
+@media (max-width: 414px) {
+	.container {
+		max-width: none;
+	}
+
+	.slick-slider{
+		width: 100%;
+	}
+
+
+
+	/* First Section Adapt Start */
+	.first_section_text_block{
+		flex-direction: column;
+		padding: 0 0 0 0;
+	}
+
+	.first_section_title_block{
+		padding: 0 0 0 0;
+	}
+
+	.first_section_text{
+		width: 100%;
+	}
+
+	.first_section_text_block p {
+		margin: 15px 0;
+	}
+	/* First Section Adapt End */
+
+	.footer_second_line{
+		flex-direction: column;
+	}
+
+	.footer_logo{
+		margin-bottom: 30px;
+	}
+
+	.adapt_menu{
+		width: 100%;
+	}
+
+	header{
+		padding: 0 0;
+	}
+
+	#burger_menu{
+		right: 10px;
+	}
+}
+
+/* iPhone XR */
+
+
+/* Nexus 6P, Nexus 5X, Google Pixel 3 XL, Google Pixel 3, Google Pixel 2 XL, Google Pixel XL, Google Pixel */
+@media (max-width: 412px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Nexus 6P, Nexus 5X, Google Pixel 3 XL, Google Pixel 3, Google Pixel 2 XL, Google Pixel XL, Google Pixel */
+
+
+
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+@media (max-width: 375px) {
+	.container {
+		max-width: none;
+	}
+
+
+
+	/* Cover Adapt Start */
+	.cover_main_section h1{
+		font-size: 52px;
+	}
+	/* Cover Adapt End */
+}
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+
+
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+@media (max-width: 360px) {
+	.container {
+		max-width: none;
+	}
+
+
+	/* Cover Adapt Start */
+	.cover_main_section h1{
+		font-size: 42px;
+	}
+
+	.cover_main_section p{
+		font-size: 16px;
+	}
+	/* Cover Adapt End */
+}
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+
+/* iPhone 5, iPod Touch */
+@media (max-width: 320px) {
+	.container {
+		max-width: none;
+	}
+
+	/* Cover Adapt Start */
+	.cover_main_section h1{
+		font-size: 42px;
+	}
+
+	.cover_main_section p{
+		font-size: 16px;
+	}
+	/* Cover Adapt End */
+
+	/* First Section Adapt Start */
+	.first_section_text_block{
+		flex-direction: column;
+		padding: 0 0 0 0;
+	}
+
+	.first_section_title_block{
+		padding: 0 0 0 0;
+	}
+
+	.first_section_text{
+		width: 100%;
+	}
+
+	.first_section_text_block p {
+		margin: 15px 0;
+	}
+	/* First Section Adapt End */
+}
+/* iPhone 5, iPod Touch */
+
+@media (max-width: 265px) {
+	.cover_main_section h1{
+		font-size: 41px;
+	}
+}
