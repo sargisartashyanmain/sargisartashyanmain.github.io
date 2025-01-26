@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    user-select: none;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+section {
+    scroll-snap-align: start;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-color: var(--color-background);
+}
+
+.section_2{
+    background-color: var(--color-background);
+}
+
+.section_3{
+    background-color: var(--color-background);
+}
+
+
+
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.greeting-container {
+    margin: 20px 0;
+}
+
+.greeting {
+    text-transform: uppercase;
+    color: var(--color-headline);
+    font-size: 48px;
+}
+.greeting br {
+    display: none;
+}
+
+.secondary-text,
+.tertiary-text{
+    text-align: center;
+}
+
+.secondary-text{
+    font-size: 24px;
+    color: var(--color-paragraph);
+}
+
+.tertiary-text{
+    color: var(--color-tertiary);
+    font-size: 18px;
+}
+
+.scroll-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: calc(100% - 100px);
+}
+
+.chevron {
+    position: absolute;
+    width: 2.1rem;
+    height: 0.48rem;
+    opacity: 0;
+    transform: scale(0.3);
+    -webkit-animation: move-chevron 3s ease-out infinite;
+    animation: move-chevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    -webkit-animation: move-chevron 3s ease-out 1s infinite;
+    animation: move-chevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    -webkit-animation: move-chevron 3s ease-out 2s infinite;
+    animation: move-chevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: var(--color-main);
+}
+
+.chevron:before {
+    left: 0;
+    transform: skewY(30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg);
+}
+
+@-webkit-keyframes move-chevron {
+    25% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+        transform: translateY(2.28rem);
+    }
+    66.6% {
+        opacity: 1;
+        transform: translateY(3.12rem);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(4.8rem) scale(0.5);
+    }
+}
+
+@keyframes move-chevron {
+    25% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+        transform: translateY(2.28rem);
+    }
+    66.6% {
+        opacity: 1;
+        transform: translateY(3.12rem);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(4.8rem) scale(0.5);
+    }
+}
+
+
+
+
+
+.trigger span {
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    z-index: 2;
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--color-background);
+    top: calc(50vh - 56px);
+}
+.trigger span.up {
+    right: 0;
+}
+.trigger span.down {
+    left: 0;
+}
+
+.box {
+    height: 1.2vh;
+    width: 50vw;
+    margin-bottom: -0.2vh;
+    background: var(--color-highlight);
+    display: block;
+}
+
+#main {
+    background:radial-gradient(#222 10%, #000 90%);
+    position:fixed;
+}
+
+#scrollDist {
+    position:absolute;
+    height:400%;
+    top:0;
+}
+
+@media screen and (max-width: 1330px){
+    .secondary-text{
+        font-size: 20px;
+    }
+
+    .greeting{
+        font-size: 36px;
+    }
+
+    .tertiary-text{
+        font-size: 16px;
+    }
+    .chevron {
+        width: 1.1rem;
+        height: 0.18rem;
+    }
+
+}
+
+@media screen and (max-width: 916px){
+    .text-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+
+    .trigger span {
+        font-size: 46px;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+    .trigger span {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .trigger span {
+        font-size: 36px;
+    }
+}
+
+
+@media screen and (max-width: 560px){
+    .greeting br {
+        display: block;
+    }
+
+    .greeting{
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondary-text {
+        font-size: 16px;
+    }
+
+    .tertiary-text {
+        font-size: 12px;
+    }
+
+    .trigger span {
+        font-size: 1cap;
+    }
+}

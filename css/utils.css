@@ -1,0 +1,21 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Переменные */
+:root {
+    --color-background: #16161a; /* Фон */
+    --color-headline: #fffffe;   /* Заголовки */
+    --color-paragraph: #94a1b2; /* Текст */
+    --color-button: #7f5af0;    /* Кнопки */
+    --color-button-text: #fffffe; /* Текст кнопок */
+    --color-stroke: #010101;    /* Обводки */
+    --color-main: #fffffe;      /* Основной цвет */
+    --color-highlight: #7f5af0; /* Акцент */
+    --color-secondary: #72757e; /* Второстепенный цвет */
+    --color-tertiary: #2cb67d;  /* Третичный цвет */
+}
+
